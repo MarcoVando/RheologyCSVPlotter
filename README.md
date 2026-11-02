@@ -20,7 +20,7 @@ At the moment is highly specific for csv files exported from TAInstruments softw
 
 ## Screenshot
 
-_Add a screenshot here_
+![App screenshot](img1.png)
 
 ## Installation
 
@@ -89,6 +89,9 @@ Example:
 
 The first two rows are combined into column names:
 
+The "Export TA csv" button at the top takes in input xslx files generated from TA instrument software and splits all the sheets into separate files, discarding the "Details" sheet.
+
+
 ```
 Frequency, Hz
 G', Pa
@@ -128,17 +131,6 @@ ax.loglog(...)
 └── example_data/
 ```
 
-## Future Improvements
-
-- Export plots as PNG/SVG/PDF
-- Session save/load
-
 ## License
 
 MIT License
-
-## Author
-
-Created for rapid visualization and comparison of rheological measurement datasets.
-
-![App screenshot](img1.png)
